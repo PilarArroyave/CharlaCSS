@@ -1,24 +1,35 @@
 body {
-    background: black;
+    background: #032F40;
     color: white;
+    height: 80vh;
+    padding: 20px 40px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 .container {
-    background: black;
+    background: rgb(6, 93, 128);
     color: white;
-    height: 300px;
-    width: 100%;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    height: 1000px;
+    width:80%;
     font-size: 30px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center; 
+    align-content: space-around;  
 }
 
 .item {
-    background: gray;
-    height: 200px;
+    background: #032F40;     
+    border-radius: 0px 21px;    
+    width: 50vh;
+    margin: 25px;
+    padding: 20px;  
+    height: 250px;    
 }
